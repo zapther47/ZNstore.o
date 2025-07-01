@@ -1,0 +1,184 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equive="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZNstore.o</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/Logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a    href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html" class="active"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section> 
+
+    <section id="page-header" class="about-header">
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Product</td>
+                    <td>Brand</td>
+                    <td>Size</td>
+                    <td>Price</td>
+                    <td>Amount</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Hoka X Fp Clifton 9.jpg" alt=""></td>
+                    <td>Hoka X Fp Clifton 9</td>
+                    <td><select>
+                       <option>S</option>
+                       <option>M</option>
+                       <option>L</option>
+                       <option>XL</option>
+                       <option>XXL</option>
+                    </td></select> 
+                    <td>$198,88</td>
+                    <td><input type="number" value="1"></td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/New Balance Rabel V4.jpg" alt=""></td>
+                    <td>New Balance Rabel V4</td>
+                    <td><select>
+                       <option>S</option>
+                       <option>M</option>
+                       <option>L</option>
+                       <option>XL</option>
+                       <option>XXL</option>
+                    </td></select>
+                    <td>$59,65</td>
+                    <td><input type="number" value="1"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input  class="normal type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$258,53</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><Strong>Total</Strong></td>
+                    <td><strong>$258,53</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+       <div class="col">
+          <img class="logo" src="img/Logo.png" alt="" width="50px" height="50px">
+          <h4>Contact</h4>
+          <p><strong>Adress</strong>: WF29+CW4, Ciwidey, Kec. Ciwidey, Kabupaten Bandung, Jawa Barat 40973</p>
+          <p><strong>Phone</strong>: 0812-2495-6812</p>
+          <p><strong>Hours</strong>: 06:00 AM - 05:00 PM</p>
+          <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinrest"></i>
+                <i class="fab fa-youtube"></i>
+
+            </div>
+          </div>
+       </div>
+
+       <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+       </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Helps</a>
+       </div>
+
+       <div class="col install">
+        <h4>Install App</h4>
+        <div class="row">
+            <img src="img/GoogleStore.jpg" alt="" width="50px" height="50px">
+            <img src="img/AppStore.jpg" alt="" width="50px" height="50px">
+        </div>
+       </div>
+       <div class="copyright">
+        <p>@2025 ZNstore copyright</p>
+       </div>
+    </footer>
+
+    <script>
+        var mainImg = document.getElementById("MainImg")
+        var smalling = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            Mainimg.src = smalling[0].src;
+        }
+
+        smallimg[1].onclick = function(){
+            Mainimg.src = smalling[1].src;
+        }
+
+        smallimg[2].onclick = function(){
+            Mainimg.src = smalling[2].src;
+        }
+
+        smallimg[3].onclick = function(){
+            Mainimg.src = smalling[3].src;
+        }
+    </script>
+
+    <script src="script.js"> </script>
+</body>
+</html>
